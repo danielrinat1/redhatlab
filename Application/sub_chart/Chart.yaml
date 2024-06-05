@@ -3,7 +3,7 @@ name: workshop-test
 description: A Helm chart for Kubernetes
 type: application
 dependencies:
-  - name: redhatlab-1.0.0
+  - name: redhatlab
     repository: oci://ghcr.io/danielrinat1/helm
     version: "1.0.0"
     alias: deploy1
