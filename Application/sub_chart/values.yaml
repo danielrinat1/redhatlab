@@ -29,3 +29,7 @@ deploy2:
     syncwave:
       deployment: 5
       configmap: 1
+
+deploy:
+  service:
+    servicePort: 8080
