@@ -35,3 +35,8 @@ deploy:
     servicePort: 8080
 
 test: Healthy
+
+github:
+  user: danielrinat1
+  token: empty-pass
+  url: <https://api.github.com/repos/danielrinat1/redhatlab/issues>
