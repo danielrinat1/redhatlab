@@ -11,7 +11,7 @@ spec:
       app: {{ .Chart.Name }}
   template:
     metadata:
-      annotations:
+      annotations: 
         rollme: {{ randAlphaNum 5 | quote }}
       labels:
 # set your lab user name
